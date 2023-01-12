@@ -53,7 +53,7 @@ enum sol_keycodes {
 #define COLEMAK  DF(_COLEMAK)
 #define GAME     DF(_GAME)
 #define QWERTY   DF(_QWERTY)
-#define FN_ESC  LT(_FN, QK_GESC)
+#define FN_ESC  LT(_FN, KC_ESC)
 //#define RGB_ADJ  LT(_ADJUST, RGB_TOG)
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
